@@ -1,4 +1,4 @@
-public class Bicycle extends ServiceStation implements Interface {
+public class Bicycle extends ServiceStation implements Vehicle {
 
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

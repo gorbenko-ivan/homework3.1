@@ -1,4 +1,4 @@
-public class Truck extends ServiceStation implements Interface {
+public class Truck extends ServiceStation implements Vehicle {
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

@@ -1,7 +1,4 @@
-public class Car extends ServiceStation implements Interface {
-    //В исправленном коде применен принцип инкапсуляции.
-    //В исправленном коде применен принцип полиморфизма.
-    //В исправленном коде применен принцип наследования.
+public class Car extends ServiceStation implements Vehicle {
 
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

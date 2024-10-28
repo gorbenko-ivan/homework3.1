@@ -16,7 +16,7 @@ public class ServiceStation {
         return wheelsCount;
     }
 
-    public void check(Interface vehicle){
+    public void check(Vehicle vehicle){
         if (vehicle != null){
             vehicle.service();
         }
